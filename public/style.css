@@ -84,3 +84,29 @@ body {
 .card-friend img {
   margin-top: 25%;
 }
+
+@media (max-width: 500px){
+
+  .navbar{
+    position: fixed;
+    top: unset;
+    bottom: 40px;
+    height: 100px;
+    width: 80%;
+  }
+
+  .center{
+    margin-left: 0;
+  }
+
+  .card img , .card-friend img{
+    margin-top: 10px;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+
+  }
+  .card-friend img {
+    margin-top: 25%;
+  }
+}

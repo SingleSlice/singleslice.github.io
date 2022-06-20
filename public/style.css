@@ -22,9 +22,7 @@ body {
 
 }
 
-.navbar #mobile-title{
-  display: none;
-}
+.navbar #mobile-title{display: none;}
 
 .navbar #avatar {
   width:60px;
@@ -128,14 +126,31 @@ body {
     margin-left: 0;
   }
 
-  .card img , .card-friend img{
+  .center h1{margin-left: 0;padding-left:15px}
+
+  .card img {
     margin-top: 10px;
     border-radius: 50%;
     width: 100px;
     height: 100px;
 
   }
+
+  .card-friend{
+    width: 30vw;
+    height: 30vw;
+  }
+
+  .container li{padding: 2px;}
+
   .card-friend img {
-    margin-top: 25%;
+    margin-top: 13%;
+    width: 50%;
+    height: 50%;
+  }
+
+  .card-friend p{
+    font-size: 80%;
+    margin-top: 0;
   }
 }

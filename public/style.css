@@ -105,12 +105,11 @@ body {
   .navbar #mobile-title{
     display: inline;
     position: absolute;
-    font-size: 30px;
+    font-size: 25px;
     color: black;
     
     left:0;
     right:0;
-    bottom: -10px;
   }
 
   .navbar a {

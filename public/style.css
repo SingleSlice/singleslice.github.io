@@ -128,6 +128,12 @@ body {
 
   .center h1{margin-left: 0;padding-left:15px}
 
+  .card{
+    width: 30vw;min-width: 97.6px;
+    height: 30vw;min-height: 97.6px;
+
+  }
+
   .card img {
     margin-top: 10px;
     border-radius: 50%;
@@ -137,8 +143,8 @@ body {
   }
 
   .card-friend{
-    width: 30vw;
-    height: 30vw;
+    width: 30vw;min-width: 97.6px;
+    height: 30vw;min-height: 97.6px;
   }
 
   .container li{padding: 2px;}

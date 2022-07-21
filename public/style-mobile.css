@@ -48,6 +48,8 @@ body {
   bottom: -2px;
 }
 
+.sidebar{display: none;}
+
 .container {
   padding-left: 0;
   text-align: center;

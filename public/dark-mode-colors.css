@@ -6,7 +6,7 @@
   
     .navbar{background-color: #241b22;}
     .navbar #mobile-title{color:white}
-    .card{background-color: #3a2b37;}.card-proj{background-color: #3a2b37;}
+    .card{background-color: #3a2b37;}.card-proj{background-color: #3a2b37;}.card-proj a{color: white;}
     .card-friend{background-color: #3a2b37;}.card-friend a{color:white}
     .sidebar{background-color: #3a2b37}
     .sidebar hr{color:white}

@@ -45,6 +45,7 @@ body {
   box-shadow: 0 4px 19px 0 rgba(0, 0, 0, 0.220);
 }
 
+.sidebar h1{text-align: center!important;padding-left :0!important;}
 .sidebar hr{
   width: 90%;
 }
@@ -132,6 +133,7 @@ body {
   .card, .card-friend{
     width: 25vw;
     height: 25vw;
+    font-size: 100%;
 
   }
 

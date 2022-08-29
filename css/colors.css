@@ -20,8 +20,8 @@
 
   .navbar{background-color: #f2dcec;}
   .navbar #mobile-title{color:black}
-  .card, .card-friend, .card-proj{background-color: #ffe7f3;}
-  .card a, .card-friend a, .card-proj a {color: black}
+  .card, .card-friend, .card-proj{background-color: #ffe7ef;}
+  .card a, .card-friend a, .card-proj a {color: rgb(68, 36, 56)}
   .sidebar{background-color: white;}
   .sidebar hr{color: black}
 }

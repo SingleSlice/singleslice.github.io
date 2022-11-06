@@ -1,4 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Fresca&display=swap');
+@import url('./navbar/navbar-desktop.css');
+
+@import url('./sidebar/sidebar-desktop.css');
+
+@import url('./cards/card-desktop.css');
 
 body {
   margin: 0;
@@ -7,44 +12,6 @@ body {
   margin: auto;
   font-family: 'Fresca', sans-serif;
   padding-bottom: 80px;
-}
-
-.navbar {
-  position: fixed;
-  left: 0;
-  top : 0;
-  height: 100vh;
-  width: 80px;
-  padding: 0;
-  box-shadow: 0 4px 19px 0 rgba(0, 0, 0, 0.219)
-
-}
-
-.navbar #mobile-title{display: none;}
-
-.navbar #avatar {
-  width:60px;
-  border-radius: 50%;
-  margin: 10px;
-
-}
-
-.sidebar{
-  position: fixed;
-  right: 18px;
-  
-  height: 96%;
-  width: 300px;
-
-  text-align: center;
-
-  border-radius: 10px;
-  box-shadow: 0 4px 19px 0 rgba(0, 0, 0, 0.220);
-}
-
-.sidebar h1{text-align: center!important;padding-left :0!important;}
-.sidebar hr{
-  width: 90%;
 }
 
 .center {
@@ -68,70 +35,4 @@ body {
   font-size: 200%;
   text-shadow: 0 0 19px rgba(0, 0, 0, 0.220);
 
-}
-
-.card, .card-friend, .card-proj{
-  width: 300px;
-  height: 300px;
-  padding:0;margin: 15px;
-  padding : 7px;
-
-  text-align: center;
-  flex-grow: 1;
-
-  transition: transform .1s ease;
-
-  overflow: hidden;
-  font-size: 20px;
-  border-radius: 10px;
-  box-shadow: 0 4px 20px 0 rgba(0, 0, 0, 0.220);
-
-}
-
-.card:hover, .card-friend:hover, .card-proj:hover{
-  transform: scale(1.05);
-}
-
-.card a ,  .card-friend a, .card-friend a, .card-proj a{
-  text-decoration: none;
-
-}
-
-.card img , .card-friend img, .card-proj img{
-  margin-top: 10px;
-  border-radius: 50%;
-  width: 100px;
-  height: 100px;
-
-  background-color: rgba(255, 255, 255, 0.548);
-
-  box-shadow: 0 4px 19px 0 rgba(0, 0, 0, 0.220);
-
-}
-
-.card-proj{height: 200px;text-align: center;}
-.card-friend{text-align: center;}
-
-.card p{padding-left:10px;padding-right: 10px;}
-
-.card .linguaggio {
-  position: relative;
-  left: calc(-20px);
-  margin-top:12px;
-  font-size: 40px;
-  text-align: center;
-  
-}
-.card img {
-  float:left;
-  position: relative;
-  left: 10px;
-  width: 50px;
-  height: 50px;
-}
-
-.card-friend, .card-proj{
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
 }

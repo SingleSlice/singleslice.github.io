@@ -1,0 +1,38 @@
+.navbar{
+    position: fixed;
+    top: 0;
+  
+    height: 80px;
+    width: 100%;
+  
+    padding: 0;
+    text-align: center;
+  
+    background-color: rgb(255, 172, 213);
+    box-shadow: 0 4px 19px 0 rgba(0, 0, 0, 0.219)
+  }
+  
+  .navbar #mobile-title{
+    display: inline;
+    position: absolute;
+    font-size: 25px;
+    color: black;
+  
+    left:0;
+    right:0;
+  }
+  
+  .navbar #avatar {
+    width:60px;
+    border-radius: 50%;
+    margin: 11%;
+  }
+  
+  .navbar a {
+    position:absolute;
+    width:60px;
+    border-radius: 50%;
+    left: 8px;
+    bottom: -2px;
+  }
+  

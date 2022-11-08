@@ -8,7 +8,21 @@
     box-shadow: 0 4px 19px 0 rgba(0, 0, 0, 0.219)
   
   }
-  
+
+  .navbar .navbuttons{
+    display: flex;
+    flex-grow: 0;
+    flex-shrink: 0;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .navbar .navbuttons svg{
+    height: 48px;
+    width: 48px;
+    padding : 5px;
+  }
+
   .navbar #mobile-title{display: none;}
   
   .navbar #avatar {

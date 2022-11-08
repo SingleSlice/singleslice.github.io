@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Fresca&display=swap');
 @import url('../../css/navbar/navbar-desktop.css');
 
 body {
@@ -12,3 +13,7 @@ body {
 .center {
     margin-left : 90px;
   }
+
+.center h1{
+  margin-left: 30px;
+}

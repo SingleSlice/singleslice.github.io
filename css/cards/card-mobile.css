@@ -38,6 +38,10 @@
 
 }
 
+.card-friend img {
+  margin-top: 20px;
+}
+
 .card-proj{height: 200px;text-align: center;}
 .card-friend{text-align: center;}
 

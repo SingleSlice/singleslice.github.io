@@ -18,7 +18,7 @@
   
   
   .card:hover, .card-friend:hover, .card-proj:hover{
-    transform: scale(1.05);
+    transform: scale(1.03);
   }
   
   .card a ,  .card-friend a, .card-friend a, .card-proj a{

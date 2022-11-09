@@ -4,10 +4,12 @@
       color: white;
     }
   
-    .navbar{background-color: #241b22;}
+    .navbar{background-color: #241b22}
     .navbar #mobile-title{color:white}
     .navbar .navbuttons svg{fill:white}
-    .card, .card-friend, .card-proj{background-color: #3a2b37;}
+    .navbar .navbuttons svg:hover{fill: #3a2b37}
+    .navbar .navbuttons{background-color: #241b22}
+    .card, .card-friend, .card-proj{background-color: #3a2b37}
     .card a, .card-friend a, .card-proj a{color:white}
     .sidebar{background-color: #3a2b37}
     .sidebar hr{color:white}
@@ -16,15 +18,17 @@
 
 @media (prefers-color-scheme: light) {
   body{
-    background-color: #fff6ff;
-    color: black
+    background-color: #ffe6ee;
+    color: #3a2b37
   }
 
-  .navbar{background-color: #f2dcec;}
+  .navbar{background-color: #ffb6c1}
   .navbar #mobile-title{color:black}
-  .navbar .navbuttons svg{fill:black}
-  .card, .card-friend, .card-proj{background-color: #ffe7ef;}
-  .card a, .card-friend a, .card-proj a {color: rgb(68, 36, 56)}
-  .sidebar{background-color: white;}
-  .sidebar hr{color: black}
+  .navbar .navbuttons svg{fill:#241b22}
+  .navbar .navbuttons svg:hover{fill: white}
+  .navbar .navbuttons{background-color: #ffb6c1 };
+  .card, .card-friend, .card-proj{background-color: #ffdbe9}
+  .card a, .card-friend a, .card-proj a {color: #3a2b37}
+  .sidebar{background-color: #ffb6c1;}
+  .sidebar hr{color: #241b22}
 }

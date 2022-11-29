@@ -16,6 +16,7 @@
   }
 
   .navbar .navbuttons svg{
+    transition: .2s ease-out;
     height: 36px;
     width: 36px;
     margin: 0;
